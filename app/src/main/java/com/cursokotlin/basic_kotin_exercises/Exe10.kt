@@ -17,5 +17,5 @@ fun main()
         average += i
     }
     println("The array is $numericArrayList")
-    println("The average of the members of the Array List is ${average/5}")
+    println("The average of the members of the Array List is ${average/numericArrayList.size}")
 }
